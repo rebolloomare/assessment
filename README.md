@@ -96,6 +96,18 @@ Content-Type: application/json
 DELETE /api/v1/tasks/{id}
 ```
 
+⏱️ Time Spent
+
+| Activity                            | Estimated Time 🕒 |
+| ----------------------------------- |-------------------|
+| Domain Modeling & SQL               | 30 min            |
+| Layered Architecture Implementation | 1 h               |
+| REST Endpoints                      | 1 h               |
+| Dockerfile & Containerization       | 30 min            |
+| Lambda for Overdue Tasks            | 1 h               |
+| README & Documentation              | 30 min            |
+| **Total Approximate**               | **4 h**           |
+
 📦 Docker Hub and deployment
 👉 El contenedor está listo para publicar:
 ```bash
