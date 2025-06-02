@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="omare.com.mx.microservice.service.TaskServiceImplTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-06-02T01:32:59.020Z" hostname="Omars-MacBook-Pro.local" time="0.444">
+  <properties/>
+  <testcase name="updateTask_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.417"/>
+  <testcase name="getTaskById_notFound()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="getTasks_dueBefore_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.002"/>
+  <testcase name="createTask_fail_missingTitle()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="updateTask_fail_dueDateInPast()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="createTask_fail_dueDateInPast()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="getTasks_completedFilter_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="getTaskById_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="getTasks_priorityFilter_returnsEmptyDueToReturnFalse()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="createTask_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.003"/>
+  <testcase name="getTasks_noFilters_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="deleteTask_notFound()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.002"/>
+  <testcase name="updateTask_notFound()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.001"/>
+  <testcase name="deleteTask_success()" classname="omare.com.mx.microservice.service.TaskServiceImplTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
