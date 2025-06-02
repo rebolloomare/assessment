@@ -18,22 +18,28 @@ A small Task Management microservice that demonstrates your ability to design a 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/tu-usuario/task-management-service.git
+git clone https://github.com/rebolloomare/task-management-service.git
 cd task-management-service
 ```
 
 ### 2️⃣ Configure the Database
-📦 The microservice uses PostgreSQL.
+📦 The microservice uses PostgreSQL
+
 Ensure the connection variables in application.properties:
+
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/assessment
 spring.datasource.username=postgres
 spring.datasource.password=postgres
+```
 
 ### 3️⃣ Create the Table
 Run the corresponding SQL script:
+
 ./db/scripts/postgres_tasks.sql
 
 ⚙️ Build & Run Steps
+
 🏗️ Build the Project
 ```bash
 ./gradlew clean build
@@ -51,6 +57,7 @@ docker run -p 8080:8080 taskmanager:latest
 ```
 
 📬 Example Requests
+
 🔹 Create Task
 ```http request
 POST /api/v1/tasks
@@ -97,4 +104,5 @@ docker push yourdockerhubusername/taskmanager:latest
 ```
 
 📧 Contact
+
 If you have any questions or suggestions, feel free to email me at omar.rebollo@gmail.com
