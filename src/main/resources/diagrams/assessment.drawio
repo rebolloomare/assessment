@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1" pages="2">
+  <diagram name="Layered Architecture" id="TX_kOuBv3lkDhO81MxQk">
+    <mxGraphModel dx="1257" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4tGiP644JRXML51GtWOD-1" value="Client/API Layer (TaskController)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F7FF;strokeColor=#1890FF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="214" y="150" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-2" value="Service Layer (TaskService)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#FA8C16;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="214" y="230" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-3" value="Repository Layer (TaskRepository)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#F6FFED;strokeColor=#52C41A;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="214" y="310" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-4" value="Database Layer (MySQL/PostgreSQL)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFF0F6;strokeColor=#EB2F96;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="214" y="390" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="4tGiP644JRXML51GtWOD-1" target="4tGiP644JRXML51GtWOD-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="4tGiP644JRXML51GtWOD-2" target="4tGiP644JRXML51GtWOD-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4tGiP644JRXML51GtWOD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="4tGiP644JRXML51GtWOD-3" target="4tGiP644JRXML51GtWOD-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOWOQS8ZOjJmAmIVV_3T-1" value="Layered Architecture" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#38761D;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="70" width="396" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NExN3MO3olgpIQ21nLXC" name="task_microservice_textual_layers">
+    <mxGraphModel dx="1257" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-1" value="Layered Architecture Description" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#38761D;rounded=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="170" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-2" value="Client/API Layer (TaskController) Responsibilities: - Exposes REST APIs - Handles HTTP requests - Maps to Service Layer" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F7FF;strokeColor=#1890FF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="230" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-3" value="Service Layer (TaskService) Responsibilities: - Business logic - Input validation - Delegates to Repository" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#FA8C16;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="350" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-4" value="Repository Layer (TaskRepository) Responsibilities: - Interacts with database - Uses Spring Data JPA - Handles CRUD operations" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#F6FFED;strokeColor=#52C41A;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="470" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-5" value="Database Layer (MySQL/PostgreSQL) Responsibilities: - Stores task data - Enforces constraints - Supports SQL queries" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFF0F6;strokeColor=#EB2F96;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="590" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="ib_oY4xoFRhZ3UsrOoLM-2" target="ib_oY4xoFRhZ3UsrOoLM-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="ib_oY4xoFRhZ3UsrOoLM-3" target="ib_oY4xoFRhZ3UsrOoLM-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib_oY4xoFRhZ3UsrOoLM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#000000;" parent="1" source="ib_oY4xoFRhZ3UsrOoLM-4" target="ib_oY4xoFRhZ3UsrOoLM-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
