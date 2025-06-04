@@ -28,7 +28,7 @@ cd task-management-service
 Ensure the connection variables in application.properties:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/assessment
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 ```
